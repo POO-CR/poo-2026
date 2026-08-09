@@ -1,0 +1,17 @@
+# Compilados de Java
+bin/
+out/
+target/
+*.class
+*.jar
+
+# Configuración del IDE, salvo la que hace falta para abrir los proyectos
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
