@@ -10,7 +10,7 @@ virtual. Acá vive solo el código.
 Clonar el repositorio una sola vez, en la carpeta donde trabajen durante el cuatrimestre:
 
 ```
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/POO-CR/poo-2026.git
 ```
 
 De ahí en adelante, antes de cada clase, traer lo nuevo:
