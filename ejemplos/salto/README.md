@@ -98,5 +98,4 @@ Mientras el personaje esta en el aire, `PanelSalto.dibujarPersonaje(...)` ademas
 - `src/salto/Personaje.java` — posición, física (gravedad/salto/corte de salto), colisión con el suelo.
 - `src/salto/PanelSalto.java` — input, timer, composición y dibujo: le pasa el movimiento/salto al `Personaje` y pinta el panel, incluido el sprite y la caja de estado del personaje.
 - `src/salto/App.java` — carga del sprite, ventana y checkbox de salto variable.
-- `assets/PNG/Animation/Troll1/Idle_000.png` — único sprite usado.
-- `assets/License.txt` — licencia de ese sprite.
+- `assets/troll.png` — único sprite usado, del pack [2D Game Troll Free Character Sprites](https://craftpix.net/freebies/2d-game-troll-free-character-sprites/).

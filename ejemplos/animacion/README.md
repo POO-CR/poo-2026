@@ -52,8 +52,8 @@ El avance de `indiceFotograma` está condicionado al input (`moviendose`), no al
 
 ## Archivos
 
-- `assets/caminata/caminata.png`: hoja de sprites (4x3) con los 10 fotogramas del ciclo de caminata.
-- `assets/caminata/caminata_000.png` ... `caminata_009.png`: los fotogramas sueltos que se usaron para armar la hoja.
+- `assets/caminata/caminata.png`: hoja de sprites (4x3) con los 10 fotogramas del ciclo de caminata, del pack [2D Game Troll Free Character Sprites](https://craftpix.net/freebies/2d-game-troll-free-character-sprites/).
+- `assets/caminata/originales/caminata_000.png` ... `caminata_009.png`: los fotogramas sueltos originales que se usaron para armar la hoja.
 - `src/animacion/Personaje.java`: posición y estado de animación (`indiceFotograma`, `mirandoIzquierda`).
 - `src/animacion/PanelCaminata.java`: input, timer, composición y dibujo: le pasa el movimiento al `Personaje` y pinta el panel, incluido el sprite del personaje.
 - `src/animacion/App.java`: carga de la hoja de sprites, recorte de los 10 fotogramas y ventana.

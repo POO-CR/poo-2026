@@ -50,4 +50,4 @@ En cada tick del `Timer` (60 fps, `PanelArena.actualizar()`):
 - `src/colision/Personaje.java`: posición, hitbox y estado de colisión del personaje.
 - `src/colision/PanelArena.java`: input, movimiento, detección de colisión, loop de render y dibujo de ambos personajes.
 - `src/colision/App.java`: carga de sprites y ventana.
-- `assets/troll_002.png`, `assets/troll_002.png`: sprites usados.
+- `assets/troll_001.png`, `assets/troll_002.png`: sprites de los dos jugadores, del pack [2D Game Troll Free Character Sprites](https://craftpix.net/freebies/2d-game-troll-free-character-sprites/).
