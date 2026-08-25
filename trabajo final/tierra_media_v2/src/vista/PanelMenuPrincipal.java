@@ -29,14 +29,14 @@ public class PanelMenuPrincipal extends JPanel{
         add(Box.createVerticalStrut(160));
 
         // Título Principal
-        JLabel lblTitulo = new JLabel("TIERRA MEDIA");
+        JLabel lblTitulo = new JLabel("The Lord of The Ring");
         lblTitulo.setFont(new Font("Serif", Font.BOLD, 64));
         lblTitulo.setForeground(new Color(212, 175, 55));
         lblTitulo.setAlignmentX(Component.CENTER_ALIGNMENT);
         add(lblTitulo);
 
         // Subtítulo
-        JLabel lblSubtitulo = new JLabel("— BATALLA TÁCTICA —");
+        JLabel lblSubtitulo = new JLabel("Journeys in middle-earth");
         lblSubtitulo.setFont(new Font("Serif", Font.PLAIN, 24));
         lblSubtitulo.setForeground(new Color(220, 220, 220));
         lblSubtitulo.setAlignmentX(Component.CENTER_ALIGNMENT);
