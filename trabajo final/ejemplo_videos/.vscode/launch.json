@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ejemplo_videos"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutar App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ejemplo_videos_4f19c3d",
+            "vmArgs": "--module-path \"C:/Users/ale/Desktop/Escritorio/Poo/javafx-sdk-21.0.12/lib\" --add-modules javafx.controls,javafx.swing,javafx.media"
+        }
+    ]
+}
