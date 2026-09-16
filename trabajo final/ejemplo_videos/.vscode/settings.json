@@ -1,9 +1,27 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src",
+        "assets"
+    ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/*.jar",
-        "C:/Users/ale/Desktop/Escritorio/Poo/javafx-sdk-21.0.12/lib/**/*.jar"
+        "lib/**/*.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.base.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.controls.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.fxml.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.graphics.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.media.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.swing.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx.web.jar",
+        "c:\\Users\\ale\\Desktop\\Escritorio\\Poo\\javafx-sdk-21.0.12\\lib\\javafx-swt.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.base.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.controls.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.fxml.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.graphics.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.media.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.swing.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx.web.jar",
+        "c:\\Users\\Lucho\\OneDrive\\Escritorio\\javafx-sdk-21.0.12\\lib\\javafx-swt.jar"
     ],
-    "jdk.runConfig.vmOptions": "--module-path \\\"C:/Users/ale/Desktop/Escritorio/Poo/javafx-sdk-21.0.12/lib\\\" --add-modules javafx.controls,javafx.swing,javafx.media\""
+    "jdk.runConfig.vmOptions": "--module-path \\\"C:/Users/Lucho/OneDrive/Escritorio/javafx-sdk-21.0.12/lib\\\" --add-modules javafx.controls,javafx.fxml,javafx.swing,javafx.media --add-exports javafx.base/com.sun.javafx.logging=ALL-UNNAMED --enable-native-access=ALL-UNNAMED",
 }
