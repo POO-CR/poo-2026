@@ -1,5 +1,8 @@
 package vista;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.io.File;
 import javafx.application.Platform;
 import javafx.embed.swing.JFXPanel;
 import javafx.scene.Group;
@@ -8,12 +11,6 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
-
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.io.File;
-import java.util.concurrent.atomic.AtomicBoolean;
-
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
