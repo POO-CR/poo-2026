@@ -11,7 +11,7 @@ https://github.com/xerial/sqlite-jdbc/releases y copiarlo a lib/.
   adentro. TODO 1, 3 y 4.
 - `src/modelo/Puntaje.java`: un puntaje. No se modifica.
 - `src/persistencia/Conexion.java`: vacia, para el TODO 1.
-- `src/Programa.java`: dos partidas y la tabla de honor.
+- `src/Programa.java`: dos partidas y la tabla de ranking.
 - `src/PruebaPartida.java`: una prueba de Partida que escribe en la base real.
 
 Para ejecutar, abrir Programa.java o PruebaPartida.java y usar el boton Run

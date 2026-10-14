@@ -1,5 +1,5 @@
 // Archivo: Puntaje.java
-// Un puntaje de la tabla de honor. Nace valido o no nace.
+// Un puntaje de la tabla de ranking. Nace valido o no nace.
 
 package modelo;
 

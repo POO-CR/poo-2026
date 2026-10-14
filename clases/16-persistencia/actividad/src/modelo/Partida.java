@@ -63,7 +63,7 @@ public class Partida {
         }
     }
 
-    public List<Puntaje> tablaDeHonor() {
+    public List<Puntaje> ranking() {
         String sql = "SELECT jugador, puntos, fecha FROM puntajes ORDER BY puntos DESC LIMIT ?";
         List<Puntaje> resultado = new ArrayList<>();
         try (PreparedStatement sentencia = this.conexion.prepareStatement(sql)) {

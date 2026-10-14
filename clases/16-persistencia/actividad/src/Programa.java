@@ -1,6 +1,6 @@
 // Archivo: Programa.java
 // Dos partidas, una de Ana y una de Luis. Cada una guarda su puntaje, y al
-// final se muestra la tabla de honor y cuantas conexiones se abrieron.
+// final se muestra la tabla de ranking y cuantas conexiones se abrieron.
 
 import modelo.Partida;
 import modelo.Puntaje;
@@ -17,8 +17,8 @@ public class Programa {
         luis.sumarPuntos(900);
         System.out.println("Guardado Luis: " + luis.terminar());
 
-        System.out.println("Tabla de honor:");
-        for (Puntaje puntaje : luis.tablaDeHonor()) {
+        System.out.println("Tabla de ranking:");
+        for (Puntaje puntaje : luis.ranking()) {
             System.out.println("  " + puntaje.getJugador() + " " + puntaje.getPuntos() + " " + puntaje.getFecha());
         }
         System.out.println("Conexiones abiertas: " + Partida.getConexionesAbiertas());

@@ -1,6 +1,6 @@
 // Archivo: PruebaPartida.java
 // Una prueba de Partida: suma puntos, termina y verifica que el puntaje
-// aparezca en la tabla de honor. Para probar eso, hoy no hay otra forma que
+// aparezca en la tabla de ranking. Para probar eso, hoy no hay otra forma que
 // escribir en la base de verdad.
 
 import modelo.Partida;
@@ -14,7 +14,7 @@ public class PruebaPartida {
         boolean guardado = partida.terminar();
 
         boolean aparece = false;
-        for (Puntaje puntaje : partida.tablaDeHonor()) {
+        for (Puntaje puntaje : partida.ranking()) {
             if (puntaje.getJugador().equals("Prueba") && puntaje.getPuntos() == 5000) {
                 aparece = true;
             }
