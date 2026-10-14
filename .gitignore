@@ -3,7 +3,7 @@ bin/
 out/
 target/
 *.class
-*.jar
+
 
 # Configuración del IDE, salvo la que hace falta para abrir los proyectos
 .vscode/*
