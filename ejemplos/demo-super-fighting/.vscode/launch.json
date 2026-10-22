@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Demo de Super Ataque",
+            "request": "launch",
+            "mainClass": "App",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
